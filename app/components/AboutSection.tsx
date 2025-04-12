@@ -74,7 +74,7 @@ const AboutSection: React.FC = () => {
           {/* Constrain image width on mobile and center it */}
           <div className="w-3/4 md:w-full mx-auto md:flex justify-end">
             <Image
-              src="/images/about/about-01.jpg"
+              src="/images/about/about.jpg"
               alt="Neha Arora"
               width={450}
               height={450}
