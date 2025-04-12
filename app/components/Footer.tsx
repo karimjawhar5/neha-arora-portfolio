@@ -10,28 +10,31 @@ const Footer: React.FC = () => {
       <div className="text-sm md:text-md">NEHA ARORA</div>
       <div className="text-sm md:text-md">© Copyright {currentYear}</div>
       <div className="flex justify-center space-x-4">
-            <Link
-              href="https://www.instagram.com/neha.ar1356/"
-              target="_blank"
-              className="text-md md:text-lg"
-            >
-              <FaInstagram />
-            </Link>
-            <Link
-              href="https://www.youtube.com/@nehasedits"
-              target="_blank"
-              className="text-md md:text-lg"
-            >
-              <FaYoutube />
-            </Link>
-            <Link
-              href="https://www.linkedin.com/in/neha-arora-aa7027333/"
-              target="_blank"
-              className="text-md md:text-lg"
-            >
-              <FaLinkedin />
-            </Link>
-          </div>
+        <Link
+          href="https://www.instagram.com/neha.ar1356/"
+          target="_blank"
+          aria-label="Instagram"
+          className="text-md md:text-lg"
+        >
+          <FaInstagram />
+        </Link>
+        <Link
+          href="https://www.youtube.com/@nehasedits"
+          target="_blank"
+          aria-label="YouTube"
+          className="text-md md:text-lg"
+        >
+          <FaYoutube />
+        </Link>
+        <Link
+          href="https://www.linkedin.com/in/neha-arora-aa7027333/"
+          target="_blank"
+          aria-label="LinkedIn"
+          className="text-md md:text-lg"
+        >
+          <FaLinkedin />
+        </Link>
+      </div>
     </footer>
   );
 };

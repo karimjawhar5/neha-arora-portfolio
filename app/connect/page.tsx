@@ -37,6 +37,7 @@ const ConnectPage: React.FC = () => {
           <Link
               href="https://www.instagram.com/neha.ar1356/"
               target="_blank"
+              aria-label="Instagram"
               className="text-lg"
             >
               <FaInstagram />
@@ -44,6 +45,7 @@ const ConnectPage: React.FC = () => {
             <Link
               href="https://www.youtube.com/@nehasedits"
               target="_blank"
+              aria-label="YouTube"
               className="text-lg"
             >
               <FaYoutube />
@@ -51,6 +53,7 @@ const ConnectPage: React.FC = () => {
             <Link
               href="https://www.linkedin.com/in/neha-arora-aa7027333/"
               target="_blank"
+              aria-label="LinkedIn"
               className="text-lg"
             >
               <FaLinkedin />
