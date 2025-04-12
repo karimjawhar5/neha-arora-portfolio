@@ -9,12 +9,12 @@ const PortfolioProjectPage: React.FC = () => {
   const title = "LUCID";
   const credit = "Credit: Production Designer";
   const btsImages = [
-    "/images/portfolio/lucid/bts-1.jpg",
-    "/images/portfolio/lucid/bts-2.jpg",
-    "/images/portfolio/lucid/bts-3.jpg",
-    "/images/portfolio/lucid/bts-4.jpg",
-    "/images/portfolio/lucid/bts-5.jpg",
-    "/images/portfolio/lucid/bts-6.jpg",
+    "/images/portfolio/Lucid/bts-1.jpg",
+    "/images/portfolio/Lucid/bts-2.jpg",
+    "/images/portfolio/Lucid/bts-3.jpg",
+    "/images/portfolio/Lucid/bts-4.jpg",
+    "/images/portfolio/Lucid/bts-5.jpg",
+    "/images/portfolio/Lucid/bts-6.jpg",
     // Add more paths if needed.
   ];
 

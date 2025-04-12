@@ -9,12 +9,12 @@ const PortfolioProjectPage: React.FC = () => {
   const title = "STITCHES";
   const credit = "Credit: Production Designer";
   const btsImages = [
-    "/images/portfolio/stitches/bts-1.jpg",
-    "/images/portfolio/stitches/bts-2.jpg",
-    "/images/portfolio/stitches/bts-3.jpg",
-    "/images/portfolio/stitches/bts-4.jpg",
-    "/images/portfolio/stitches/bts-5.jpg",
-    "/images/portfolio/stitches/bts-6.jpg",
+    "/images/portfolio/Stitches/bts-1.jpg",
+    "/images/portfolio/Stitches/bts-2.jpg",
+    "/images/portfolio/Stitches/bts-3.jpg",
+    "/images/portfolio/Stitches/bts-4.jpg",
+    "/images/portfolio/Stitches/bts-5.jpg",
+    "/images/portfolio/Stitches/bts-6.jpg",
     // Add more paths if needed.
   ];
 

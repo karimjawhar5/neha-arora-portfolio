@@ -9,10 +9,10 @@ const PortfolioProjectPage: React.FC = () => {
   const title = "HUSK";
   const credit = "Credit: Production Designer";
   const btsImages = [
-    "/images/portfolio/husk/bts-1.jpg",
-    "/images/portfolio/husk/bts-2.jpg",
-    "/images/portfolio/husk/bts-3.jpg",
-    "/images/portfolio/husk/bts-4.jpg",
+    "/images/portfolio/Husk/bts-1.jpg",
+    "/images/portfolio/Husk/bts-2.jpg",
+    "/images/portfolio/Husk/bts-3.jpg",
+    "/images/portfolio/Husk/bts-4.jpg",
     // Add more paths if needed.
   ];
 
