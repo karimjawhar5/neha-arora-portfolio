@@ -16,8 +16,8 @@ const HeroSection: React.FC = () => {
         priority
       />
 
-            {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-black opacity-35" />
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black opacity-25" />
 
       {/* Header overlaid at the top */}
       <div className="absolute top-0 w-full z-10">
