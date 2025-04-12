@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface PortfolioItemProps {
   image: string;
@@ -20,9 +21,11 @@ const PortfolioItem: React.FC<PortfolioItemProps> = ({
     rel="noopener noreferrer"
     className="group block relative overflow-hidden cursor-pointer"
   >
-    <img
+    <Image
       src={image}
       alt={title}
+      width={950}
+      height={515}
       className="w-full h-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105"
     />
     <div className="absolute bottom-0 left-0 w-full p-4">
